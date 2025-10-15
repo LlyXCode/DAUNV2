@@ -723,13 +723,13 @@ SettingsTab:Button({
 })
 
 InfoTab:Button({
-    Title = "Copy Discord",
-    Icon = "geist:logo-discord",
+	    Title = "Copy Saluran WA",
+	    Icon = "geist:logo-WhatsApp",
     Desc = "Salin link Discord ke clipboard",
     Callback = function()
         if setclipboard then
-            setclipboard("https://discord.gg/cjZPqHRV")
-            logAndNotify("Discord", "Link berhasil disalin!")
+            setclipboard("https://whatsapp.com/channel/0029VbBxCmiKgsNvPi1k5j3C")
+            logAndNotify("WhatsApp", "Link berhasil disalin!")
         else
             notify("Clipboard Error", "setclipboard tidak tersedia!", 2)
         end
@@ -750,7 +750,7 @@ Replay/route system untuk checkpoint.
 - Run CPx → CPy = jalur spesifik
 - Playback Speed = atur kecepatan replay (0.25x - 3.00x)
 
-Own bardenss
+Own LlyXCode x Marpii
     ]],
     TextSize = 16,
     TextTransparency = 0.25,
@@ -919,12 +919,13 @@ tampTab:Button({
 })
 
 -- Final notif
-notify("LlyXCode", "Script sudan di load, gunakan dengan bijak.", 3)
+notify("Own LlyXCode x Marpii", "Script sudan di load, gunakan dengan bijak.", 3)
 
 pcall(function()
     Window:Show()
     MainTab:Show()
 end)
+
 
 
 
