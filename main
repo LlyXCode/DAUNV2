@@ -362,15 +362,15 @@ end
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 
 local Window = WindUI:CreateWindow({
-    Title = "BANTAI GUNUNG",
+    Title = "LlyXCode",
     Icon = "lucide:mountain-snow",
-    Author = "bardenss",
+    Author = "LlyXCode",
     Folder = "BRDNHub",
     Size = UDim2.fromOffset(580, 460),
     Theme = "Midnight",
     Resizable = true,
     SideBarWidth = 200,
-    Watermark = "bardenss",
+    Watermark = "LlyXCode",
     User = {
         Enabled = true,
         Anonymous = false,
@@ -763,7 +763,7 @@ Window:DisableTopbarButtons({
 
 -- Open button cantik
 Window:EditOpenButton({
-    Title = "BANTAI GUNUNG",
+    Title = "LlyXCode",
     Icon = "geist:logo-nuxt",
     CornerRadius = UDim.new(0,16),
     StrokeThickness = 2,
@@ -919,10 +919,11 @@ tampTab:Button({
 })
 
 -- Final notif
-notify("BANTAI GUNUNG", "Script sudan di load, gunakan dengan bijak.", 3)
+notify("LlyXCode", "Script sudan di load, gunakan dengan bijak.", 3)
 
 pcall(function()
     Window:Show()
     MainTab:Show()
 end)
+
 
