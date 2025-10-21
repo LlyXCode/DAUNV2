@@ -362,10 +362,10 @@ end
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 
 local Window = WindUI:CreateWindow({
-    Title = "LlyXCode",
+    Title = "LlyXCode 〢 DAUN",
     Icon = "lucide:mountain-snow",
     Author = "LlyXCode",
-    Folder = "BRDNHub",
+    Folder = "LlyXCode",
     Size = UDim2.fromOffset(580, 460),
     Theme = "Midnight",
     Resizable = true,
@@ -925,6 +925,7 @@ pcall(function()
     Window:Show()
     MainTab:Show()
 end)
+
 
 
 
