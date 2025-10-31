@@ -728,7 +728,7 @@ InfoTab:Button({
     Desc = "Salin link Discord ke clipboard",
     Callback = function()
         if setclipboard then
-            setclipboard("https://whatsapp.com/channel/0029VbBxCmiKgsNvPi1k5j3C")
+            setclipboard("https://discord.gg/BSEDnsJ5")
             logAndNotify("WhatsApp", "Link berhasil disalin!")
         else
             notify("Clipboard Error", "setclipboard tidak tersedia!", 2)
@@ -925,6 +925,7 @@ pcall(function()
     Window:Show()
     MainTab:Show()
 end)
+
 
 
 
